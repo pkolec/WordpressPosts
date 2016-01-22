@@ -1,0 +1,60 @@
+/**
+* CSS themes for simplePagination.js
+* Author: Flavius Matis - http://flaviusmatis.github.com/
+* URL: https://github.com/flaviusmatis/simplePagination.js
+*/
+
+/*------------------------------------*\
+	Compact Theme Styles
+\*------------------------------------*/
+
+
+
+
+/*------------------------------------*\
+	Light Theme Styles
+\*------------------------------------*/
+
+.light-theme {
+	display: block;
+	overflow: hidden;
+	padding: 0 5px 5px 0;
+}
+
+.light-theme a, .light-theme span {
+	float: left;
+	color: rgb(132, 187, 225);
+	font-size:14px;
+	line-height:24px;
+	font-weight: normal;
+	text-align: center;
+	min-width: 14px;
+	padding: 0 7px;
+	margin: 0 5px 0 0;	
+	background: #151923; /* Old browsers */
+	text-decoration: none;
+}
+
+.light-theme a:hover {
+	text-decoration: none;
+	background: rgb(132, 187, 225);
+	color: Black;
+}
+
+.light-theme .current {
+	background: rgb(132, 187, 225);
+	color: black;
+	cursor: default;
+}
+
+.light-theme .current.prev, .current.next {
+	background: #151923;
+	color: rgb(132, 187, 225);
+	cursor: default;
+}
+
+.light-theme .page-link.next 
+{
+    margin-right: 0px;
+}
+    

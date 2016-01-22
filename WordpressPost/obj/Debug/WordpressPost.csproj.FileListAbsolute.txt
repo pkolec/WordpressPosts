@@ -1,0 +1,72 @@
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\WordpressPost.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\WordpressPost.pdb
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\Antlr3.Runtime.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\EntityFramework.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\Microsoft.Web.Infrastructure.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\Newtonsoft.Json.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.Mvc.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.Optimization.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.Providers.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.Razor.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.WebPages.Deployment.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.WebPages.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.WebPages.Razor.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\WebGrease.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\EntityFramework.xml
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\Newtonsoft.Json.xml
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.Mvc.xml
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.Razor.xml
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.WebPages.xml
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.WebPages.Deployment.xml
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\bin\System.Web.WebPages.Razor.xml
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\obj\Debug\WordpressPost.csprojResolveAssemblyReference.cache
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\obj\Debug\WordpressPost.dll
+c:\users\qadosh\documents\visual studio 2012\Projects\WordpressPost\WordpressPost\obj\Debug\WordpressPost.pdb
+E:\BLStream\WordpressPost\WordpressPost\bin\WordpressPost.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\WordpressPost.pdb
+E:\BLStream\WordpressPost\WordpressPost\bin\Antlr3.Runtime.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\EntityFramework.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\Microsoft.Web.Infrastructure.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\Newtonsoft.Json.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.Mvc.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.Optimization.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.Providers.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.Razor.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.WebPages.Deployment.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.WebPages.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.WebPages.Razor.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\WebGrease.dll
+E:\BLStream\WordpressPost\WordpressPost\bin\EntityFramework.xml
+E:\BLStream\WordpressPost\WordpressPost\bin\Newtonsoft.Json.xml
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.Mvc.xml
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.Razor.xml
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.WebPages.xml
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.WebPages.Deployment.xml
+E:\BLStream\WordpressPost\WordpressPost\bin\System.Web.WebPages.Razor.xml
+E:\BLStream\WordpressPost\WordpressPost\obj\Debug\WordpressPost.csprojResolveAssemblyReference.cache
+E:\BLStream\WordpressPost\WordpressPost\obj\Debug\WordpressPost.dll
+E:\BLStream\WordpressPost\WordpressPost\obj\Debug\WordpressPost.pdb
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\WordpressPost.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\WordpressPost.pdb
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\Antlr3.Runtime.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\EntityFramework.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\Microsoft.Web.Infrastructure.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\Newtonsoft.Json.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.Mvc.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.Optimization.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.Providers.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.Razor.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.WebPages.Deployment.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.WebPages.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.WebPages.Razor.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\WebGrease.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\EntityFramework.xml
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\Newtonsoft.Json.xml
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.Mvc.xml
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.Razor.xml
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.WebPages.xml
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.WebPages.Deployment.xml
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\bin\System.Web.WebPages.Razor.xml
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\obj\Debug\WordpressPost.csprojResolveAssemblyReference.cache
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\obj\Debug\WordpressPost.dll
+D:\USB Praca\BLStream ver2\WordpressPost\WordpressPost\obj\Debug\WordpressPost.pdb
