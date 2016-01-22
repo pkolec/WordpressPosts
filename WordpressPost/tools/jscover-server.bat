@@ -1,1 +1,0 @@
-java -Dfile=UTF-8 -jar JSCover-all.jar -ws --document-root=../ --report-dir=../out --no-instrument=App_Code --no-instrument=App_Data --no-instrument=App_Start --no-instrument=bin --no-instrument=Content --no-instrument=Controllers --no-instrument=Helper --no-instrument=Models --no-instrument=obj --no-instrument=Scripts/External --no-instrument=tests --no-instrument=Views

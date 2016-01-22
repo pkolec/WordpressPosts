@@ -2,6 +2,7 @@
 
     var _bodyElement;
 
+    var filter;
     var currentPage;
     var baseURL = "https://public-api.wordpress.com/rest/v1.1/sites/$site/posts/";
 
@@ -81,19 +82,27 @@
         });
 
         // pagination Filter
-        _that.getFilter = function () {
+        _that.getFilter = function (fromPage) {
 
             _that.page(currentPage);
 
-            var filter = {
-                Skip: _that.skip(),
-                Take: _that.take(),
+            if (filter == null) {
+                filter = {
+                    Skip: _that.skip(),
+                    Take: _that.take()
+                };
+            }
+            else {
+                filter.Skip = _that.skip();
+                filter.Take = _that.take();
+            }
 
-                DomainName: _nmsp.form.fields.domainName.val(),
-                Phrase: _nmsp.form.fields.phrase.val(),
-                SortBy: _nmsp.form.fields.sortBy.val(),
-                PostNumber: _nmsp.form.fields.postNumber.val(),
-            };
+            if (!fromPage) {
+                filter.DomainName = _nmsp.form.fields.domainName.val();
+                filter.Phrase = _nmsp.form.fields.phrase.val();
+                filter.SortBy = _nmsp.form.fields.sortBy.val();
+                filter.PostNumber = _nmsp.form.fields.postNumber.val();
+            }
 
             return filter;
         }
@@ -124,7 +133,7 @@
 
             currentPage = page;
 
-            _that.getData();
+            _that.getData(null, null, true);
         }
 
         _that.setOnlyPage = function (page) {
@@ -160,13 +169,13 @@
             }
         };
 
-        _that.getData = function (callback, validRequired) {
+        _that.getData = function (callback, validRequired, fromPage) {
 
             var valid = _that.validateForm(validRequired);
 
-            if (valid) {
+            if (valid || fromPage) {
 
-                var filter = _that.getFilter();
+                filter = _that.getFilter(fromPage);
 
                 wordpressPost.Blocker.startAction();
 
@@ -193,11 +202,12 @@
                 }
 
                 $.ajax({
-                    url: path, type: "GET", dataType: "json", contentType: 'application/json, charset=utf-8',
+                    url: path, type: "GET",
                     success: function (data) {
 
                         _that.removePaginationHashs();
-                        updateBrowserURL();
+
+                        updateBrowserURL(fromPage);
 
                         wordpressPost.Blocker.stopAction();
 
@@ -440,7 +450,7 @@
         }
     }
 
-    var updateBrowserURL = function () {
+    var updateBrowserURL = function (fromPage) {
 
         if (!_nmsp.IsHistory) {
 
@@ -448,24 +458,23 @@
 
             var url = wordpressPost.BaseSiteUrl;
 
-            if (getValue(_nmsp.form.fields.domainName) != "") {
-                url = wordpressPost.helper.addUrlParameter(url, 'dn', getValue(_nmsp.form.fields.domainName));
+            if (filter.DomainName != "") {
+                url = wordpressPost.helper.addUrlParameter(url, 'dn', filter.DomainName);
                 count++;
             }
 
-            if (getValue(_nmsp.form.fields.phrase) != "") {
-                url = wordpressPost.helper.addUrlParameter(url, 'p', getValue(_nmsp.form.fields.phrase));
+            if (filter.Phrase != "") {
+                url = wordpressPost.helper.addUrlParameter(url, 'p', filter.Phrase);
                 count++;
             }
 
-            if (getValue(_nmsp.form.fields.sortBy) != "date") {
-                url = wordpressPost.helper.addUrlParameter(url, 's', getValue(_nmsp.form.fields.sortBy));
+            if (filter.SortBy != "date") {
+                url = wordpressPost.helper.addUrlParameter(url, 's', filter.SortBy);
                 count++;
             }
 
-            var tmp = getValue(_nmsp.form.fields.postNumber);
-            if (getValue(_nmsp.form.fields.postNumber) != "") {
-                url = wordpressPost.helper.addUrlParameter(url, 'pn', getValue(_nmsp.form.fields.postNumber));
+            if (filter.PostNumber != "") {
+                url = wordpressPost.helper.addUrlParameter(url, 'pn', filter.PostNumber);
                 count++;
             }
 

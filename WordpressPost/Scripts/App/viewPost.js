@@ -15,7 +15,7 @@ wordpressPost.viewPost.init = function () {
     wordpressPost.Blocker.startAction();
 
     $.ajax({
-        url: path, type: "GET", dataType: "json", contentType: 'application/json, charset=utf-8',
+        url: path, type: "GET",
         success: function (data) {
 
             var title = $('<h2>');

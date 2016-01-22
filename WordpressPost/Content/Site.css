@@ -49,7 +49,7 @@
 }
 
 #wordpressPostForm {
-    max-width: 1515px;
+    max-width: 1700px;
     margin: 0 auto;
 }
 
@@ -98,11 +98,12 @@
 .formItem {
     display: inline-block;
     float: left;
-    width: 350px;
+    width: 400px;
 }
 
 .message.error {
     display: none;
+    font-size: 14px;
 }
 
 .itemTitle {
@@ -225,7 +226,7 @@ img {
 
 /* responsive */
 
-@media all and (max-width: 1600px) {
+@media all and (max-width: 1700px) {
     .formItem {
         display: block;
         float: none;
