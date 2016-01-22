@@ -1,0 +1,19 @@
+﻿@model WordpressPost.Models.WordpressPostModel
+
+@section Scripts {
+
+    <script src="~/Scripts/App/viewPost.js"></script>
+    
+    <script type="text/javascript">
+
+        wordpressPost.viewPost.siteName = '@Model.siteName';
+        wordpressPost.viewPost.postID = '@Model.postID';
+
+        wordpressPost.viewPost.init();
+
+    </script>
+}
+
+<div id="wordpressPost" style="max-width: 65%; margin: 0 auto; display: none;">
+    <button onclick="window.history.go(-1);">Back</button>
+</div>

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- font -->
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+        <!-- css -->
+        @Styles.Render("~/bundles/baseCss")
+
+        @RenderSection("Styles", false)
+        
+        <!-- title -->
+        <title>Wordpress Posts</title>
+    </head>
+    <body>
+
+        @Html.Partial("_Blocker")
+        @Html.Partial("_MessageBox")
+        @RenderBody()
+
+        <script type="text/javascript">
+            wordpressPost = {};
+            wordpressPost.BaseSiteUrl = '@(WordpressPost.Helper.GlobalHelper.BaseSiteUrl)';
+        </script>
+
+
+        <!-- scripts -->
+        @Scripts.Render("~/bundles/baseJS")
+
+        <script type="text/javascript">
+            wordpressPost.MessageBox.init();
+        </script>
+
+        @RenderSection("Scripts", false)
+
+    </body>
+</html>

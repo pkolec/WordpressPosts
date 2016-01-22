@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Paweł\Desktop\Release\WordpressPost</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Code/Content.cshtml">
+      <publishTime>09/22/2014 12:17:21</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>01/19/2016 18:04:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/19/2016 18:04:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/19/2016 18:04:18</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/19/2016 18:04:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/19/2016 18:04:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>01/19/2016 18:04:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>01/19/2016 18:04:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/19/2016 18:04:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/19/2016 18:04:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/19/2016 18:04:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/19/2016 18:04:18</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/19/2016 18:04:20</publishTime>
+    </File>
+    <File Include="bin/WordpressPost.dll">
+      <publishTime>01/22/2016 15:35:58</publishTime>
+    </File>
+    <File Include="Content/message-box.css">
+      <publishTime>12/09/2015 08:27:53</publishTime>
+    </File>
+    <File Include="Content/reset.css">
+      <publishTime>01/19/2016 18:25:09</publishTime>
+    </File>
+    <File Include="Content/simplePagination/style.css">
+      <publishTime>12/09/2015 08:27:53</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/22/2016 11:03:06</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/19/2016 18:03:55</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/19/2016 18:04:20</publishTime>
+    </File>
+    <File Include="Scripts/App/blocker.js">
+      <publishTime>01/22/2016 02:56:17</publishTime>
+    </File>
+    <File Include="Scripts/App/browserHistory.js">
+      <publishTime>01/22/2016 02:56:15</publishTime>
+    </File>
+    <File Include="Scripts/App/helper.js">
+      <publishTime>01/22/2016 02:54:53</publishTime>
+    </File>
+    <File Include="Scripts/App/main.js">
+      <publishTime>01/22/2016 11:16:52</publishTime>
+    </File>
+    <File Include="Scripts/App/messagebox.js">
+      <publishTime>01/22/2016 02:56:11</publishTime>
+    </File>
+    <File Include="Scripts/App/viewPost.js">
+      <publishTime>01/22/2016 10:57:29</publishTime>
+    </File>
+    <File Include="Scripts/External/jquery-1.7.1.js">
+      <publishTime>01/19/2016 18:04:14</publishTime>
+    </File>
+    <File Include="Scripts/External/jquery-1.7.1.min.js">
+      <publishTime>01/19/2016 18:04:14</publishTime>
+    </File>
+    <File Include="Scripts/External/jquery-ui-1.8.20.js">
+      <publishTime>01/19/2016 18:04:17</publishTime>
+    </File>
+    <File Include="Scripts/External/jquery-ui-1.8.20.min.js">
+      <publishTime>01/19/2016 18:04:17</publishTime>
+    </File>
+    <File Include="Scripts/External/jquery.blockUI.js">
+      <publishTime>12/09/2015 08:27:54</publishTime>
+    </File>
+    <File Include="Scripts/External/jquery.simplePagination.js">
+      <publishTime>12/09/2015 08:27:54</publishTime>
+    </File>
+    <File Include="Scripts/External/knockout-3.0.0.js">
+      <publishTime>12/09/2015 08:27:54</publishTime>
+    </File>
+    <File Include="tests/lib/jasmine-2.4.0/boot.js">
+      <publishTime>12/02/2015 22:22:20</publishTime>
+    </File>
+    <File Include="tests/lib/jasmine-2.4.0/console.js">
+      <publishTime>12/02/2015 22:22:20</publishTime>
+    </File>
+    <File Include="tests/lib/jasmine-2.4.0/jasmine-html.js">
+      <publishTime>12/02/2015 22:22:20</publishTime>
+    </File>
+    <File Include="tests/lib/jasmine-2.4.0/jasmine.css">
+      <publishTime>12/02/2015 22:22:20</publishTime>
+    </File>
+    <File Include="tests/lib/jasmine-2.4.0/jasmine.js">
+      <publishTime>12/02/2015 22:22:20</publishTime>
+    </File>
+    <File Include="tests/lib/jasmine-2.4.0/jasmine_favicon.png">
+      <publishTime>12/02/2015 22:22:20</publishTime>
+    </File>
+    <File Include="tests/spec/main.js">
+      <publishTime>01/22/2016 10:44:33</publishTime>
+    </File>
+    <File Include="tests/SpecRunner.html">
+      <publishTime>01/22/2016 03:32:00</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/21/2016 19:38:45</publishTime>
+    </File>
+    <File Include="Views/Home/ViewPost.cshtml">
+      <publishTime>01/21/2016 17:12:15</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>01/19/2016 18:03:55</publishTime>
+    </File>
+    <File Include="Views/Shared/_Blocker.cshtml">
+      <publishTime>01/20/2016 13:48:20</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>01/21/2016 12:08:26</publishTime>
+    </File>
+    <File Include="Views/Shared/_MessageBox.cshtml">
+      <publishTime>01/21/2016 10:00:27</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>01/19/2016 18:03:55</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>01/19/2016 18:03:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/22/2016 15:35:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

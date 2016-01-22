@@ -1,0 +1,287 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Source Sans Pro";
+    color: #232323;
+    background-color: #fff;
+    font-weight: 300;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 30px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #1D2E4C;
+    color: #fff;
+}
+
+#preloaderHolder { 
+    display: none;
+}
+
+.preloaderMessage p {
+    position: relative;
+    top: -12px;
+    font-size: 24px;
+    color: #3fbad9;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+
+.preloaderMessage {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+#postGrid {
+    display: none;
+}
+
+#wordpressPostForm {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 6px 15px;
+    border: none;
+    position: Relative;
+    top: 5px;
+    margin-left: 20px;
+    background: #DCDCDC;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #B3B3B3;
+}
+
+.moduleMargin {
+    padding: 50px 10px 50px 10px;
+}
+
+.customForm select {
+    width: 173px;
+}
+
+.customForm input {
+    width: 160px;
+}
+
+.customForm select, .customForm input {
+    border: 1px solid #ABABAB;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 23px;
+    padding: 0px 5px;
+}
+
+.customGrid #pagination {
+	margin-bottom: 20px;
+}
+
+.formItem {
+    display: inline-block;
+    float: left;
+    width: 400px;
+}
+
+.message.error {
+    display: none;
+    font-size: 14px;
+}
+
+.itemTitle {
+    display: block;
+    float: left;
+    margin-top: 6px;
+    padding: 0px 20px;
+    top: 5px;
+    position: relative;
+    font-size: 14px;
+}
+
+.graident.mainpage {
+    background: -moz-linear-gradient(top, rgba(29,46,76,1) 0%, rgba(29,46,76,0.82) 58%, rgba(201,205,212,0.72) 90%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(29,46,76,1) 0%,rgba(29,46,76,0.82) 58%,rgba(201,205,212,0.72) 90%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(29,46,76,1) 0%,rgba(29,46,76,0.82) 58%,rgba(201,205,212,0.72) 90%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2e4c', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+    max-width: 100%;
+    height: 30px;
+}
+
+.formItem.error {
+    color: red;
+}
+
+.formItem.error input {
+    border: 1px solid #f00;
+    background-color: #fee;
+    margin-bottom: 5px;
+}
+
+.itemContainer {
+    display: inline-block;
+    padding: 5px 0px 15px 0px;
+}
+
+.customGrid table
+{
+	width: 100%;
+}
+
+.customGrid table.fixWidth
+{
+	width: 1400px !important;
+}
+
+.addHorizontalOverflow {
+
+	overflow-x: auto;
+}
+
+.customGrid table li
+{
+	list-style: none;
+}
+
+.customGrid table th {
+    padding: 0.5em 0.6em;
+    color: #FFFFFF;
+    background-color: #1D2E4C;
+    border: 1px solid #1D2E4C !important;
+}
+
+.customGrid table td {
+    background: #FFFFFF !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: #b6b5b5 !important;
+    padding: 7px 10px;
+    vertical-align: middle;
+    max-width: 380px;
+}
+
+.customGrid tr:hover td {
+    background: #D6D6D6 !important;
+    cursor: pointer;
+}
+
+.customGrid.nfw table {
+    display: inline-block;
+}
+
+.customGrid table th a {
+    color: #ffffff;
+}
+
+/* dropdown */
+
+.customDropdownOptions {
+    position: absolute;
+    z-index: 1000;
+    background: #fff;
+    width: 100%;
+    display: none;
+    top: 29px;
+    left: 0px;
+    padding: 0px;
+}
+
+.customDropdownOptions .option {
+    padding: 0px 10px;
+    background: #F3F3F3;
+}
+
+.customDropdownOptions .option:hover {
+    background-color: #FC805E;
+    color: #ffffff;
+}
+
+.customDropdown {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* responsive */
+
+@media all and (max-width: 1700px) {
+    .formItem {
+        display: block;
+        float: none;
+        width: auto;
+    }
+
+    .itemTitle {
+        width: 135px;
+    }
+
+    .moduleMargin {
+        padding: 20px 10px 30px 10px;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    .itemTitle {
+        padding: 0px 5px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .customForm input {
+        width: 130px;
+    }
+
+    .customForm select {
+        width: 141px;
+    }
+
+    #wordpressPostForm {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    #submit{
+        margin-left: 0px;
+    }
+}
+
+
+@media all and (max-width: 500px) {
+
+    .itemTitle {
+        padding: 0px 5px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .customForm input {
+        width: 130px;
+    }
+
+    .customForm select {
+        width: 141px;
+    }
+}
