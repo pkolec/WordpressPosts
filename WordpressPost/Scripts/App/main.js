@@ -513,7 +513,7 @@
             }
         }
 
-        wordpressPost.browserHistory.pushState(_bodyElement.html(), "BrandingThemes", url);
+        wordpressPost.browserHistory.pushState(_bodyElement.html(), "WordpressPost", url);
     }
 
     var popHistory = function () {

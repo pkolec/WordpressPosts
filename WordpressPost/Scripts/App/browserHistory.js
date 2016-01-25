@@ -12,8 +12,6 @@ wordpressPost.browserHistory.popState = function (callback) {
 
 wordpressPost.browserHistory.pushState = function (state, title, url) {
 
-    //url = brandingThemes.Helper.encodeUrlParameters(url);
-
     if (window.history.pushState != null) {
         window.history.pushState(state, title, url);
     }

@@ -277,7 +277,11 @@
             var domain = getValue(_nmsp.form.fields.domainName);
             var postID = this.postID();
 
-            var path = wordpressPost.BaseSiteUrl + 'ViewPost/' + domain + '/' + postID;
+            var path = wordpressPost.BaseSiteUrl + 'ViewPost.html';
+
+            path = wordpressPost.helper.addUrlParameter(path, 'domain', domain);
+            path = wordpressPost.helper.addUrlParameter(path, 'postID', postID);
+
             window.location = path;
         }
     }
@@ -513,7 +517,7 @@
             }
         }
 
-        wordpressPost.browserHistory.pushState(_bodyElement.html(), "BrandingThemes", url);
+        wordpressPost.browserHistory.pushState(_bodyElement.html(), "WordpressPost", url);
     }
 
     var popHistory = function () {

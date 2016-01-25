@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- font -->
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="Content/reset.css">
+        <link rel="stylesheet" type="text/css" href="Content/Site.css">
+        <link rel="stylesheet" type="text/css" href="Content/simplePagination/style.css">
+        <link rel="stylesheet" type="text/css" href="Content/message-box.css">
+        
+        <!-- title -->
+        <title>Wordpress Posts</title>
+    </head>
+    <body>
+
+        <div id="message-box-hidden-container">
+            <div id="message-box" class="message-box">
+                <div class="message-box-header">
+            
+                </div>
+                <div class="message-box-content">
+
+                </div>
+
+                <div class="message-box-close"></div>
+
+                <div class="message-box-buttons">
+                    <div class="message-box-button apply">Yes</div>
+                    <div class="message-box-button cancel">No</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="preloaderBlocker">
+            <div id="preloaderHolder"> 
+                <div class="actionPreloader">
+                    <div class="preloaderMessage">
+                        <p>Please wait...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="header">
+            <div id="wordpressPostForm" class="moduleMargin customForm">
+
+                <div class="formItem">
+                    <span class="itemTitle">DOMAIN NAME:</span>
+                    <div class="itemContainer">
+                        <input id="domainName" class="input text" type="text" data-required="true" data-length="100" data-valid-domain="true" />
+                        <div class="message error empty">Domain name can't be empty</div>
+                        <div class="message error toolong">Domain name is too long max 100 length</div>
+                        <div class="message error domainerror">Please enter valid domain name</div>
+                    </div>
+                </div>
+
+                <div class="formItem">
+                    <span class="itemTitle">SEARCH PHRASE:</span>
+                    <div class="itemContainer">
+                        <input id="phrase" class="input text" type="text" data-length="100" />
+                        <div class="message error toolong">Domain name is too long max 100 length</div>
+                    </div>
+                </div>
+
+                <div class="formItem">
+                    <span class="itemTitle">SORT BY:</span>
+        
+                    <div class="itemContainer">
+                        <select id="sortBy">
+                            <option value="date">Create date</option>
+                            <option value="modified">Modification date</option>
+                            <option value="title">Title</option>
+                        </select> 
+
+                        <div class="message error"></div>
+                    </div>
+                </div>
+
+                <div class="formItem">
+                    <span class="itemTitle">POST NUMBER:</span>
+                    <div class="itemContainer">
+                        <input id="postNumber" class="input text" type="text" placeholder="20" data-min-number="5" data-max-number="100" />
+                        <div class="message error notanumber">Please enter number</div>
+                        <div class="message error belovemin">Number must be greater than 5</div>
+                        <div class="message error abovemax">Number must be lower than 100</div>
+                    </div>
+                </div>
+
+                <button id="submit" class="button">Submit</button>
+            </div>
+
+            <div style="clear: both;"></div>
+        </div>
+
+        <div class="graident mainpage"></div>
+
+        <div id="container" class="filter-list">
+            <div id="content">
+                <div id="innerContent">
+
+                    <div id="postGrid" class="customGrid moduleMargin">
+
+                        <div id="pagination"></div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Create Date</th>
+                                    <th>Modification Date</th>
+                                </tr>
+                            </thead>
+
+                            <tbody data-bind="foreach: { data: items }">
+                                <tr data-bind="attr: { dataID: postID }, click: $root.postClicked">
+                                    <td data-bind="text: title"></td>      
+                                    <td data-bind="text: createDate"></td> 
+                                    <td data-bind="text: modificationDate"></td> 
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            wordpressPost = {};
+            wordpressPost.BaseSiteUrl = '';
+        </script>
+
+
+        <!-- scripts -->
+        <script src="Scripts/External/jquery-1.7.1.js"></script>
+        <script src="Scripts/External/jquery-ui-1.8.20.js"></script>
+        <script src="Scripts/External/jquery.blockUI.js"></script>
+        <script src="Scripts/External/knockout-3.0.0.js"></script>
+        <script src="Scripts/External/jquery.simplePagination.js"></script>
+        <script src="Scripts/App/browserHistory.js"></script>
+        <script src="Scripts/App/messagebox.js"></script>
+        <script src="Scripts/App/helper.js"></script>
+        <script src="Scripts/App/blocker.js"></script>
+
+        <script type="text/javascript">
+            wordpressPost.MessageBox.init();
+        </script>
+
+        <script src="Scripts/App/main.js"></script>
+
+    </body>
+</html>
