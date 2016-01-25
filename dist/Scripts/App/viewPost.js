@@ -37,6 +37,6 @@ wordpressPost.viewPost.init = function () {
         });
     }
     else {
-        wordpressPost.viewPost.wordpressPost.prepend('<h2>No post find</h2>');
+		wordpressPost.MessageBox.show('Error', 'No post were found', wordpressPost.MessageBox.modes.simple, null, true);
     }
 }
